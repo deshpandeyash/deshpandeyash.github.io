@@ -4,10 +4,10 @@ A responsive, static personal website designed to be hosted for free on GitHub P
 
 ## Pages included
 - `index.html` — home and highlighted research
-- `research.html` — research topics and project summaries
-- `publications.html` — searchable publication list (replace placeholder bibliographic details)
+- `research.html` — broad research directions, each with related-publication links
+- `publications.html` — searchable publication list with tags back to research directions
 - `teaching.html` — teaching activities
-- `cv.html` — education and experience, with a placeholder CV PDF path
+- `cv.html` — education and experience, with a downloadable CV
 - `contact.html` — contact details and external profiles
 
 ## Before publishing
