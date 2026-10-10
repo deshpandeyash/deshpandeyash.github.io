@@ -1,6 +1,6 @@
-# Yash Deshpande — Academic Homepage
+# Yash Deshpande — Personal Website
 
-A responsive, static academic website designed to be hosted for free on GitHub Pages and connected to a domain registered at GoDaddy.
+A responsive, static personal website designed to be hosted for free on GitHub Pages and connected to a domain registered at GoDaddy.
 
 ## Pages included
 - `index.html` — home and highlighted research
