@@ -277,18 +277,7 @@ code {
   color: inherit;
 }
 
-.profile-meta-item strong,
 .profile-meta-item span span {
-  display: block;
-}
-
-.profile-meta-item strong {
-  margin-bottom: 2px;
-  font-size: 0.84rem;
-}
-
-.profile-meta-item span span {
-  color: var(--muted);
   font-size: 0.9rem;
 }
 
