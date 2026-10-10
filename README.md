@@ -1,26 +1,61 @@
 # Yash Deshpande — Personal Website
 
-A responsive, static personal website designed to be hosted for free on GitHub Pages and connected to a domain registered at GoDaddy.
+A responsive personal website built with Jekyll and a BibTeX-backed publication pipeline, designed to be hosted on GitHub Pages.
 
 ## Pages included
-- `index.html` — home and highlighted research
+- `index.html` — home and highlighted research/publications
 - `research.html` — broad research directions, each with related-publication links
-- `publications.html` — searchable publication list with tags back to research directions
+- `publications.html` — searchable publication list with filters for topic and authorship
 - `teaching.html` — teaching activities
 - `cv.html` — education and experience, with a downloadable CV
 - `contact.html` — contact details and external profiles
 
+## Publication workflow
+- `publications.bib` is the source of truth for bibliography entries.
+- `scripts/generate_publications.py` converts BibTeX into `_data/publications.yml`.
+- `_data/publication_overrides.yml` stores per-paper tags, optional links, and visibility overrides.
+- `publications.html` and `research.html` render directly from the generated data.
+
+To refresh the publication database locally after editing `publications.bib`:
+
+```bash
+pip install -r requirements.txt
+python scripts/generate_publications.py
+```
+
+## Local preview
+1. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   gem install bundler
+   bundle install
+   ```
+
+2. Regenerate publications:
+
+   ```bash
+   python scripts/generate_publications.py
+   ```
+
+3. Run the site:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
 ## Before publishing
 1. Check every page and update the text to your preferred wording.
-2. Review the entries in `publications.html` and adjust titles, author lists, ordering, and links as needed.
+2. Review `publications.bib` and `_data/publication_overrides.yml` when adding or retagging publications.
 3. Replace the CV file in `assets/files/CV.pdf` if you want to publish a newer version.
 4. Optional: replace the Google Fonts import in `assets/css/style.css` with system fonts if you prefer not to load fonts from a third party.
 
 ## Deploy with GitHub Pages
-1. Sign in to GitHub and create a **public** repository named `yourusername.github.io` (replace `yourusername` with your GitHub username).
-2. Upload all files and folders from this ZIP to the repository root. `index.html` must be at the root.
-3. In the repository, open **Settings → Pages**. Choose **Deploy from a branch**, select `main` and `/(root)`, and save.
-4. Wait for the Pages deployment to finish. Your site will first be available at `https://yourusername.github.io`.
+1. Push the repository to GitHub.
+2. In the repository, open **Settings → Pages**.
+3. Set the source to **GitHub Actions**.
+4. The included workflow in `.github/workflows/pages.yml` will regenerate publications from BibTeX, build the Jekyll site, and deploy it.
+5. Wait for the Pages deployment to finish. Your site will be available at `https://yourusername.github.io`.
 
 ## Connect your GoDaddy domain
 Do this after the GitHub Pages site is live:
@@ -47,5 +82,6 @@ Official documentation:
 - Custom domains: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
 - GoDaddy DNS: https://www.godaddy.com/help/manage-dns-records-680
 
-## Local preview
-Open `index.html` in a browser. Most content works without a local server; the publication search and mobile navigation use the included JavaScript.
+## Notes
+- The publication filters run client-side in the browser.
+- Because the site uses a build workflow, updates to `publications.bib` should be committed together with any override/tag changes.

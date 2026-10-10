@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="{{ '/' | relative_url }}">YD<span>.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a{% if page.nav_id == 'home' %} class="active"{% endif %} href="{{ '/' | relative_url }}">Home</a>
+        <a{% if page.nav_id == 'research' %} class="active"{% endif %} href="{{ '/research.html' | relative_url }}">Research</a>
+        <a{% if page.nav_id == 'publications' %} class="active"{% endif %} href="{{ '/publications.html' | relative_url }}">Publications</a>
+        <a{% if page.nav_id == 'teaching' %} class="active"{% endif %} href="{{ '/teaching.html' | relative_url }}">Teaching</a>
+        <a{% if page.nav_id == 'cv' %} class="active"{% endif %} href="{{ '/cv.html' | relative_url }}">CV</a>
+        <a{% if page.nav_id == 'contact' %} class="active"{% endif %} href="{{ '/contact.html' | relative_url }}">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  {{ content }}
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Yash Deshpande</span>
+      <span>Technical University of Munich · <a href="{{ '/contact.html' | relative_url }}">Contact</a></span>
+    </div>
+  </footer>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
+

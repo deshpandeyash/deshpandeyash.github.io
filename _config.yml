@@ -1,0 +1,14 @@
+title: Yash Deshpande
+description: Professional profile of Yash Deshpande
+url: "https://deshpandeyash.github.io"
+baseurl: ""
+permalink: pretty
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - requirements.txt
+  - scripts/
+  - vendor/
+

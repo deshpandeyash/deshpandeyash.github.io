@@ -1,0 +1,4 @@
+bibtexparser==1.4.1
+PyYAML==6.0.2
+pylatexenc==2.10
+

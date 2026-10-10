@@ -1,89 +1,89 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Professional profile of Yash Deshpande, focused on deterministic networking, clock synchronization, digital twins, and distributed systems.">
-  <title>Yash Deshpande | Professional Profile</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="index.html">YD<span>.</span></a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
-      <div class="nav-links" id="nav-links">
-        <a class="active" href="index.html">Home</a>
-        <a href="research.html">Research</a>
-        <a href="publications.html">Publications</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="cv.html">CV</a>
-        <a href="contact.html">Contact</a>
+---
+layout: default
+title: Professional Profile
+description: Professional profile of Yash Deshpande, focused on deterministic networking, clock synchronization, digital twins, and distributed systems.
+nav_id: home
+---
+<main id="main">
+  <section class="hero container">
+    <div class="hero-copy">
+      <p class="eyebrow">Professional profile</p>
+      <h1>Yash Deshpande</h1>
+      <p class="lead">Engineer and researcher working on deterministic networking, clock synchronization, digital twins, and distributed systems.</p>
+      <p>I am a Wissenschaftlicher Mitarbeiter at the Chair of Communication Networks at the Technical University of Munich (TUM). My work focuses on making networked systems more accurate, predictable, and measurable.</p>
+      <div class="hero-actions">
+        <a class="button" href="{{ '/research.html' | relative_url }}">Explore my research</a>
+        <a class="button button-quiet" href="{{ '/publications.html' | relative_url }}">View publications →</a>
       </div>
-    </nav>
-  </header>
+    </div>
+    <aside class="profile-card">
+      <img class="profile-photo" src="{{ '/assets/files/profile-photo.jpg' | relative_url }}" alt="Portrait of Yash Deshpande">
+      <p class="profile-label">Research interests</p>
+      <ul class="tag-list">
+        {% for direction in site.data.research_directions %}
+          <li>{{ direction.title }}</li>
+        {% endfor %}
+      </ul>
+      <div class="profile-rule"></div>
+      <p class="small">Technical University of Munich</p>
+      <p class="small muted">Chair of Communication Networks</p>
+      <p class="small"><a href="{{ '/contact.html' | relative_url }}">Contact details →</a></p>
+    </aside>
+  </section>
 
-  <main id="main">
-    <section class="hero container">
-      <div class="hero-copy">
-        <p class="eyebrow">Professional profile</p>
-        <h1>Yash Deshpande</h1>
-        <p class="lead">Engineer and researcher working on deterministic networking, clock synchronization, digital twins, and distributed systems.</p>
-        <p>I am a Wissenschaftlicher Mitarbeiter at the Chair of Communication Networks at the Technical University of Munich (TUM). My work focuses on making networked systems more accurate, predictable, and measurable.</p>
-        <div class="hero-actions">
-          <a class="button" href="research.html">Explore my research</a>
-          <a class="button button-quiet" href="publications.html">View publications →</a>
-        </div>
-      </div>
-      <aside class="profile-card">
-        <img class="profile-photo" src="assets/files/profile-photo.jpg" alt="Portrait of Yash Deshpande">
-        <p class="profile-label">Research interests</p>
-        <ul class="tag-list">
-          <li>Deterministic networking</li><li>Clock synchronization</li><li>Digital twins</li><li>Tree splitting</li>
-        </ul>
-        <div class="profile-rule"></div>
-        <p class="small">Technical University of Munich</p>
-        <p class="small muted">Chair of Communication Networks</p>
-        <p class="small"><a href="contact.html">Contact details →</a></p>
-      </aside>
-    </section>
-
-    <section class="section section-tint">
-      <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">At a glance</p><h2>Focus areas</h2></div>
-          <a class="text-link" href="research.html">All research →</a>
-        </div>
-        <div class="card-grid">
-          <article class="info-card"><span class="card-number">01</span><h3>Deterministic networking & latency modeling</h3><p>Studying predictable communication, bounded latency, and the models needed to reason about end-to-end timing behavior.</p><a href="research.html#deterministic-networking">Read more →</a></article>
-          <article class="info-card"><span class="card-number">02</span><h3>Clock synchronization</h3><p>Understanding synchronization uncertainty across distributed systems, from timestamping behavior to oscillator drift and queueing effects.</p><a href="research.html#clock-synchronization">Read more →</a></article>
-          <article class="info-card"><span class="card-number">03</span><h3>Digital twins</h3><p>Using digital representations of systems and networks to analyze performance, validate assumptions, and study operational behavior.</p><a href="research.html#digital-twins">Read more →</a></article>
-          <article class="info-card"><span class="card-number">04</span><h3>Tree splitting algorithms</h3><p>Exploring contention-resolution and randomized access strategies, with an eye toward scalable, analyzable distributed coordination.</p><a href="research.html#tree-splitting-algorithms">Read more →</a></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section container">
+  <section class="section section-tint">
+    <div class="container">
       <div class="section-heading">
-        <div><p class="eyebrow">Selected work</p><h2>Current directions</h2></div>
-        <a class="text-link" href="research.html">Project details →</a>
+        <div>
+          <p class="eyebrow">At a glance</p>
+          <h2>Research directions</h2>
+        </div>
+        <a class="text-link" href="{{ '/research.html' | relative_url }}">All research →</a>
       </div>
-      <div class="project-row">
-        <div class="project-mark">DN</div><div><h3>Deterministic networking & latency modeling</h3><p>Building models for predictable latency and service behavior across wired, wireless, and hybrid networked systems.</p><p class="project-meta">Deterministic networking · Latency modeling</p></div>
+      <div class="card-grid">
+        {% for direction in site.data.research_directions %}
+          <article class="info-card">
+            <span class="card-number">{{ direction.number }}</span>
+            <h3>{{ direction.title }}</h3>
+            <p>{{ direction.short_summary }}</p>
+            <a href="{{ '/research.html' | relative_url }}#{{ direction.id }}">Read more →</a>
+          </article>
+        {% endfor %}
       </div>
-      <div class="project-row">
-        <div class="project-mark">CS</div><div><h3>Clock synchronization</h3><p>Studying how timing uncertainty accumulates across systems and how it can be measured, bounded, and communicated more clearly.</p><p class="project-meta">PTP · Timing analysis</p></div>
-      </div>
-      <div class="project-row">
-        <div class="project-mark">DT</div><div><h3>Digital twins & algorithmic systems</h3><p>Connecting models, experiments, and algorithms to understand and control complex systems, from digital twins to tree-splitting strategies.</p><p class="project-meta">Digital twins · Tree splitting algorithms</p></div>
-      </div>
-      <div class="note-box"><strong>Looking for public work?</strong><span>Visit the publications page for currently listed publications and the latest public entries linked from Google Scholar.</span><a href="publications.html">Publications →</a></div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Yash Deshpande</span><span>Technical University of Munich · <a href="contact.html">Contact</a></span></div></footer>
-  <script src="assets/js/main.js"></script>
-</body>
-</html>
+  <section class="section container">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Recent publications</p>
+        <h2>Public work across projects</h2>
+      </div>
+      <a class="text-link" href="{{ '/publications.html' | relative_url }}">Browse all publications →</a>
+    </div>
+    {% assign featured_publications = site.data.publications | slice: 0, 3 %}
+    {% for publication in featured_publications %}
+      <article class="project-row">
+        <div class="project-mark">{{ publication.year }}</div>
+        <div>
+          <h3><a href="{{ '/publications.html' | relative_url }}#pub-{{ publication.slug }}">{{ publication.title }}</a></h3>
+          <p>{{ publication.summary }}</p>
+          <div class="pub-tags">
+            {% for tag in publication.tags %}
+              {% assign direction = site.data.research_directions | where: "id", tag | first %}
+              {% if direction %}
+                <a href="{{ '/research.html' | relative_url }}#{{ direction.id }}">{{ direction.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+    <div class="note-box">
+      <strong>Filter the full publication list</strong>
+      <span>The publications page is now generated from your BibTeX file and can be filtered by research direction, authorship, and free-text search.</span>
+      <a href="{{ '/publications.html' | relative_url }}">Publications →</a>
+    </div>
+  </section>
+</main>
+

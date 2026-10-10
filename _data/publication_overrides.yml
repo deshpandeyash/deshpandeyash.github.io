@@ -1,0 +1,99 @@
+scholar_profile_url: "https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en"
+
+entries:
+  stefanovic2020analysis:
+    tags:
+      - tree-splitting-algorithms
+  stefanovic2023tree:
+    tags:
+      - tree-splitting-algorithms
+  deshpande2022improving:
+    tags:
+      - tree-splitting-algorithms
+  deshpande2022d:
+    tags:
+      - tree-splitting-algorithms
+  deshpande2022corrections:
+    tags:
+      - tree-splitting-algorithms
+  vogel2024analysis:
+    tags:
+      - tree-splitting-algorithms
+  ayvacsik2023remote:
+    tags:
+      - deterministic-networking
+  deshpande2023towards:
+    tags:
+      - clock-synchronization
+      - deterministic-networking
+  vogel2023advanced:
+    tags:
+      - tree-splitting-algorithms
+  bhadauria2024evaluation:
+    tags:
+      - deterministic-networking
+  vogel2023delay:
+    tags:
+      - digital-twins
+      - deterministic-networking
+  deshpande2024openairlink:
+    tags:
+      - deterministic-networking
+  deshpande2025twinran:
+    tags:
+      - digital-twins
+      - deterministic-networking
+  diederich2025lcdn:
+    tags:
+      - deterministic-networking
+      - digital-twins
+  deshpande2024integrating:
+    tags:
+      - deterministic-networking
+      - digital-twins
+    links:
+      - label: Scholar entry
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mc202fMAAAAJ&citation_for_view=mc202fMAAAAJ:_FxGoFyzp5QC"
+  vogel2024modellierung:
+    tags:
+      - digital-twins
+      - deterministic-networking
+  bi2023dezentrale:
+    tags:
+      - digital-twins
+  vogel2024modeling:
+    tags:
+      - digital-twins
+      - deterministic-networking
+  zhao2025ki:
+    tags:
+      - digital-twins
+  zhao2025entwurf:
+    tags:
+      - digital-twins
+  steininger2025performance:
+    tags:
+      - deterministic-networking
+  jano2026quest:
+    tags:
+      - deterministic-networking
+  kutsevol2025learning:
+    tags:
+      - deterministic-networking
+  becker2026joint:
+    tags:
+      - deterministic-networking
+      - clock-synchronization
+  deshpande2023high:
+    hidden: true
+    tags:
+      - tree-splitting-algorithms
+  deshpande2026improving:
+    tags:
+      - clock-synchronization
+      - deterministic-networking
+  deshpande2026strict:
+    tags:
+      - deterministic-networking
+      - clock-synchronization
+
