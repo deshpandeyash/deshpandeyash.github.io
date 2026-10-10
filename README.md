@@ -12,10 +12,9 @@ A responsive, static personal website designed to be hosted for free on GitHub P
 
 ## Before publishing
 1. Check every page and update the text to your preferred wording.
-2. In `contact.html`, replace `ADD-YOUR-EMAIL@example.com` and all `href="#"` profile placeholders.
-3. In `publications.html`, replace bracketed titles, author lists, venue/status, and placeholder links with verified public details. Remove unpublished work if you do not want to mention it.
-4. Add your CV PDF at `assets/files/yash-deshpande-cv.pdf` or update the button URL in `cv.html`.
-5. Optional: replace the Google Fonts import in `assets/css/style.css` with system fonts if you prefer not to load fonts from a third party.
+2. Review the entries in `publications.html` and adjust titles, author lists, ordering, and links as needed.
+3. Replace the CV file in `assets/files/CV.pdf` if you want to publish a newer version.
+4. Optional: replace the Google Fonts import in `assets/css/style.css` with system fonts if you prefer not to load fonts from a third party.
 
 ## Deploy with GitHub Pages
 1. Sign in to GitHub and create a **public** repository named `yourusername.github.io` (replace `yourusername` with your GitHub username).

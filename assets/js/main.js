@@ -24,11 +24,3 @@ if (search) {
     if (empty) empty.hidden = visible !== 0;
   });
 }
-document.querySelectorAll('.placeholder-link').forEach(link => {
-  link.addEventListener('click', event => {
-    if (link.getAttribute('href') === '#') {
-      event.preventDefault();
-      alert('Replace this placeholder with the correct public URL before publishing.');
-    }
-  });
-});
