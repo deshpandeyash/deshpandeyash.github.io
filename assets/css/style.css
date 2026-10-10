@@ -711,6 +711,17 @@ code {
   font-weight: 700;
 }
 
+.tennis-photo-image {
+  display: block;
+  width: 100%;
+  height: 320px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  object-fit: cover;
+  object-position: center;
+  background: var(--tint);
+}
+
 .tennis-photo-placeholder figcaption {
   margin-top: 10px;
   color: var(--muted);
