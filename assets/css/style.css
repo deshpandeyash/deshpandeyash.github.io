@@ -688,6 +688,35 @@ code {
   font-size: 1.28rem;
 }
 
+.tennis-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 920px;
+  margin-top: 20px;
+}
+
+.tennis-photo-placeholder {
+  margin: 0;
+}
+
+.tennis-photo-box {
+  display: grid;
+  place-items: center;
+  min-height: 280px;
+  border: 1px dashed #bfd2d8;
+  border-radius: 14px;
+  background: var(--tint);
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.tennis-photo-placeholder figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .contact-panel {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -777,6 +806,7 @@ code {
   .contact-panel,
   .teaching-card,
   .cv-layout,
+  .tennis-photo-grid,
   .timeline article,
   .publication {
     grid-template-columns: 1fr;
