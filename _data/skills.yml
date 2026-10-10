@@ -1,0 +1,95 @@
+- id: simulation
+  number: "01"
+  title: Simulation
+  short_summary: Placeholder summary for simulation work and tools.
+  eyebrow: "01 / Skills"
+  intro: Add your simulation-focused description here.
+  detail: Use this section to describe the environments, abstractions, and kinds of problems you approach through simulation.
+  chips:
+    - SimPy
+    - ns-3
+    - OMNeT++
+    - System evaluation
+  related_research:
+    - deterministic-networking
+    - digital-twins
+    - tree-splitting-algorithms
+- id: mathematical-modelling
+  number: "02"
+  title: Mathematical modelling
+  short_summary: Placeholder summary for analytical and stochastic modeling.
+  eyebrow: "02 / Skills"
+  intro: Add your mathematical modeling description here.
+  detail: Use this section to explain the kinds of models you build and how they support analysis, design, or validation.
+  chips:
+    - Stochastic models
+    - Performance analysis
+    - Delay analysis
+    - Uncertainty bounds
+  related_research:
+    - clock-synchronization
+    - deterministic-networking
+    - tree-splitting-algorithms
+- id: measurements
+  number: "03"
+  title: Measurements
+  short_summary: Placeholder summary for experimental and measurement-driven work.
+  eyebrow: "03 / Skills"
+  intro: Add your measurement and experimentation description here.
+  detail: Use this section to capture how you instrument systems, collect traces, and validate behavior under realistic conditions.
+  chips:
+    - Instrumentation
+    - Hardware timestamping
+    - Trace analysis
+    - Validation
+  related_research:
+    - clock-synchronization
+    - deterministic-networking
+    - digital-twins
+- id: sysadmin
+  number: "04"
+  title: SysAdmin
+  short_summary: Placeholder summary for systems administration and infrastructure work.
+  eyebrow: "04 / Skills"
+  intro: Add your systems administration description here.
+  detail: Use this section to describe platform setup, automation, deployment, and operational responsibilities you want to highlight.
+  chips:
+    - Linux
+    - Automation
+    - Deployment
+    - Operations
+  related_research:
+    - deterministic-networking
+    - digital-twins
+- id: networking-protocols
+  number: "05"
+  title: Networking protocols
+  short_summary: Placeholder summary for protocol design, implementation, and evaluation.
+  eyebrow: "05 / Skills"
+  intro: Add your networking protocol description here.
+  detail: Use this section to cover protocols, packet processing, and network-stack knowledge across wired and wireless systems.
+  chips:
+    - PTP
+    - TSN
+    - MAC
+    - Routing
+  related_research:
+    - clock-synchronization
+    - deterministic-networking
+    - tree-splitting-algorithms
+- id: 5g-testbed
+  number: "06"
+  title: 5G testbed
+  short_summary: Placeholder summary for 5G platform and testbed experience.
+  eyebrow: "06 / Skills"
+  intro: Add your 5G testbed description here.
+  detail: Use this section to describe experimentation, integration, and performance analysis on 5G-connected systems or lab infrastructure.
+  chips:
+    - 5G
+    - Testbeds
+    - SDR
+    - Experimental systems
+  related_research:
+    - clock-synchronization
+    - deterministic-networking
+    - digital-twins

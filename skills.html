@@ -1,0 +1,47 @@
+---
+layout: default
+title: Skills
+description: Technical skills and methods of Yash Deshpande.
+nav_id: skills
+permalink: /skills/
+---
+<main id="main" class="container page-content">
+  <p class="eyebrow">Skills</p>
+  <h1>Technical skills & methods</h1>
+  <p class="page-lead">This page groups technical skills and methods that connect across my research areas. Each section can be expanded with more detail later and already links back to the related research directions.</p>
+
+  <section class="topic-grid">
+    {% for skill in site.data.skills %}
+      <a class="topic-card" href="#{{ skill.id }}">
+        <span class="card-number">{{ skill.number }}</span>
+        <h2>{{ skill.title }}</h2>
+        <p>{{ skill.short_summary }}</p>
+      </a>
+    {% endfor %}
+  </section>
+
+  {% for skill in site.data.skills %}
+    <section class="research-item" id="{{ skill.id }}">
+      <p class="eyebrow">{{ skill.eyebrow }}</p>
+      <h2>{{ skill.title }}</h2>
+      <p>{{ skill.intro }}</p>
+      <p>{{ skill.detail }}</p>
+      <div class="chips">
+        {% for chip in skill.chips %}
+          <span>{{ chip }}</span>
+        {% endfor %}
+      </div>
+      <div class="related-work">
+        <h3>Connected research directions</h3>
+        <ul>
+          {% for direction_id in skill.related_research %}
+            {% assign direction = site.data.research_directions | where: "id", direction_id | first %}
+            {% if direction %}
+              <li><a href="{{ '/research/' | relative_url }}#{{ direction.id }}">{{ direction.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  {% endfor %}
+</main>
