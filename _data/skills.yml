@@ -14,14 +14,15 @@
     - Python
     - MATLAB
     - NumPy
+    - Pandas
     - SciPy
 - id: measurements
   number: "02"
   title: Measurements
   short_summary: I built many testbeds and measurement setups to collect and analyze network system behavior.
   eyebrow: "02 / Skills"
-  intro: Over the years, I have gained extensive experience in setting up measurement infrastructures and conducting experiments to understand network system behavior.
-  detail: I focus on instrumenting systems, collecting traces, and validating behavior under realistic conditions to ensure accurate and reliable results.
+  intro: Over the years, I have gained extensive experience in setting up measurement infrastructures and conducting experiments to measure latency, oscillator stability, and overall network performance.
+  detail: I have expereince with instruments such as Calnex Paragon-X and R&S TSMA along with oscilloscopes, frequency analyzers, capture cards and network taps. In many cases, I had to invent custom devices such as [OpenAirLink](https://github.com/N3Martix/OpenAirLink) and a [latency measurement setup](https://ieeexplore.ieee.org/abstract/document/10226161/).
   chips:
     - Instrumentation
     - Hardware timestamping
