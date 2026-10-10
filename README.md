@@ -8,6 +8,7 @@ A responsive personal website built with Jekyll and a BibTeX-backed publication 
 - `publications.html` — searchable publication list with topic and year filters
 - `teaching.html` — teaching activities
 - `cv.html` — education and experience, with a downloadable CV
+- `tennis.html` — tennis page placeholder for future personal content
 - `contact.html` — contact details and external profiles
 
 ## Publication workflow

@@ -8,43 +8,144 @@ permalink: /cv/
 <main id="main" class="container page-content">
   <p class="eyebrow">Curriculum vitae</p>
   <h1>Education & experience</h1>
-  <p class="page-lead">A concise overview of my background and experience, with a downloadable CV below.</p>
-  <p><a class="button" href="{{ '/assets/files/CV.pdf' | relative_url }}">Download CV</a></p>
+  <p class="page-lead">A web version of my CV covering current work, past experience, education, and technical focus areas. For the full one-page version, you can also download the PDF.</p>
+  <div class="hero-actions">
+    <a class="button" href="{{ '/assets/files/CV.pdf' | relative_url }}">Download CV</a>
+    <a class="button button-quiet" href="{{ '/contact/' | relative_url }}">Contact me</a>
+  </div>
 
-  <section class="timeline">
-    <article>
-      <div class="timeline-date">Since 2021</div>
-      <div>
-        <h2>Research Fellow / Wissenschaftlicher Mitarbeiter</h2>
-        <p class="venue">Chair of Communication Networks, Technical University of Munich</p>
-        <p>Research on network clock synchronization, timing uncertainty, programmable networks, and datacenter networking.</p>
-      </div>
-    </article>
-    <article>
-      <div class="timeline-date">2021</div>
-      <div>
-        <h2>M.Sc. Communications Engineering</h2>
-        <p class="venue">Technical University of Munich</p>
-      </div>
-    </article>
-    <article>
-      <div class="timeline-date">2018</div>
-      <div>
-        <h2>M.Sc. Electronic Science</h2>
-        <p class="venue">University of Pune</p>
-      </div>
-    </article>
-    <article>
-      <div class="timeline-date">2016</div>
-      <div>
-        <h2>B.Sc. Electronic Science</h2>
-        <p class="venue">University of Pune</p>
-      </div>
-    </article>
-  </section>
+  <div class="cv-layout">
+    <aside class="cv-sidebar">
+      <section class="info-card">
+        <p class="eyebrow">Summary</p>
+        <h2>Professional focus</h2>
+        <p>Networking and systems researcher at the Technical University of Munich specializing in precision network time synchronization and mathematical modeling of network latency.</p>
+        <p>My work combines IEEE 1588 PTP/NTP, GNSS-referenced synchronization, oscillator and clock-drift characterization, hardware timestamping, stochastic latency models, simulation, and experimental validation on high-speed programmable networks.</p>
+      </section>
 
-  <section class="research-item">
-    <h2>Technical interests</h2>
-    <p>Precision time protocol (PTP), Linux networking, programmable data planes, hardware timestamping, network measurement, simulation, and deterministic systems.</p>
-  </section>
+      <section class="info-card">
+        <p class="eyebrow">Technical skills</p>
+        <h2>Core areas</h2>
+        <ul class="detail-list cv-list">
+          <li><strong>Networked systems:</strong> PTP/NTP, 100G Ethernet, Tofino/P4, Linux networking, TSN</li>
+          <li><strong>Time synchronization:</strong> IEEE 1588 PTP, GNSS synchronization, oscillator characterization, hardware timestamping</li>
+          <li><strong>Modeling:</strong> stochastic methods, latency and uncertainty modeling, performance and stability analysis</li>
+          <li><strong>Simulation & measurement:</strong> SimPy, ns-3, OMNeT++, empirical measurement, experimental evaluation</li>
+          <li><strong>Programming:</strong> C, C++, Python, Go, Bash, MATLAB</li>
+        </ul>
+      </section>
+
+      <section class="info-card">
+        <p class="eyebrow">Languages</p>
+        <h2>Working languages</h2>
+        <ul class="detail-list cv-list">
+          <li>English</li>
+          <li>German</li>
+          <li>Hindi</li>
+          <li>Marathi</li>
+        </ul>
+      </section>
+    </aside>
+
+    <div class="cv-main">
+      <section class="cv-section">
+        <p class="eyebrow">Experience</p>
+        <h2>Professional experience</h2>
+        <div class="timeline">
+          <article>
+            <div class="timeline-date">Jan 2021 – Present</div>
+            <div>
+              <h3>Research Fellow & Doctoral Researcher</h3>
+              <p class="venue">Chair of Communication Networks, Technical University of Munich</p>
+              <ul class="detail-list">
+                <li>Research and experimental development in IEEE 1588 PTP/NTP synchronization, mathematical network-latency modeling, and time-uncertainty characterization.</li>
+                <li>Develop analytical and stochastic models and measurement methodologies for packet delay, congestion, and synchronization uncertainty.</li>
+                <li>Characterize synchronization using GNSS-referenced clocks, oscillators, SyncE, hardware timestamping, and high-speed Ethernet networking hardware.</li>
+                <li>Analyze how queuing, scheduling, congestion, switch processing, timestamping, and oscillator behavior affect synchronization accuracy.</li>
+                <li>Validate mathematical models using 100G Ethernet and programmable Tofino/P4 switches in controlled timing and performance experiments.</li>
+                <li>Characterize Linux network-endpoint latency across NICs, drivers, interrupts, and packet-processing paths using DPDK and XDP.</li>
+                <li>Teach the Wireless Sensor Networks Laboratory, supervising around 18 students per semester in protocol design, implementation, and experimental evaluation.</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <div class="timeline-date">Sep 2019 – Jan 2020</div>
+            <div>
+              <h3>Research Intern</h3>
+              <p class="venue">Chair of Communication Networks, Technical University of Munich</p>
+              <ul class="detail-list">
+                <li>Built a Python simulator for tree-splitting medium-access algorithms.</li>
+                <li>Analyzed throughput, delay, and stability for an approach combining successive interference cancellation and K-multipacket reception.</li>
+                <li>That line of work and its continuation led to multiple peer-reviewed publications.</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <div class="timeline-date">Jan 2019 – Dec 2020</div>
+            <div>
+              <h3>Working Student, Product Engineering</h3>
+              <p class="venue">MegAuto KG</p>
+              <ul class="detail-list">
+                <li>Designed rotary and linear position sensors with semiconductor-manufacturer partners.</li>
+                <li>Developed test and production equipment.</li>
+                <li>Trained staff at partner factories in India and China.</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <div class="timeline-date">2015 – 2016</div>
+            <div>
+              <h3>Engineering Internships</h3>
+              <p class="venue">Pratham Technologies / Vision Experts</p>
+              <ul class="detail-list">
+                <li>Developed embedded signal-processing electronics linking line-scan cameras and a PLC.</li>
+                <li>Contributed to optical design using cameras, illumination, lenses, mirrors, and polarizing filters.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background</h2>
+        <div class="timeline">
+          <article>
+            <div class="timeline-date">2018 – 2020</div>
+            <div>
+              <h3>M.Sc. Communications Engineering</h3>
+              <p class="venue">Technical University of Munich · German grade: 1.4 / 1.0</p>
+              <ul class="detail-list">
+                <li>Master’s thesis: reinforcement-learning-based distributed medium access in networked control systems.</li>
+                <li>Project-based laboratories in wireless sensor networks and software-defined networking.</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <div class="timeline-date">2013 – 2018</div>
+            <div>
+              <h3>B.Sc. and M.Sc. Electronic Science</h3>
+              <p class="venue">Fergusson College, Savitribai Phule Pune University · GPA: 9.8 / 10</p>
+              <ul class="detail-list">
+                <li>Worked on hardware programming in C on ARM, Arduino, and Raspberry Pi platforms.</li>
+                <li>Built a 3D printer and a wireless open-field speed gate for athletes.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <p class="eyebrow">Awards & additional</p>
+        <h2>Recognition and activities</h2>
+        <ul class="detail-list cv-list">
+          <li>Best Student, Fergusson College (2015–16)</li>
+          <li>IEEE INFOCOM Student Travel Grant (2022)</li>
+          <li>Best Master Project, Imagine Cup (2018)</li>
+          <li>Led approximately 50 students in producing Fergusson College’s annual electronics fair.</li>
+          <li>Organized weekly programming and circuit-design workshops.</li>
+        </ul>
+      </section>
+    </div>
+  </div>
 </main>

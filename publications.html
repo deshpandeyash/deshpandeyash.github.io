@@ -71,7 +71,16 @@ permalink: /publications/
           {% if publication.links and publication.links.size > 0 %}
             <div class="pub-links">
               {% for link in publication.links %}
-                <a href="{{ link.url }}">{{ link.label }}</a>
+                {% assign display_label = link.label %}
+                {% case link.label %}
+                  {% when "DOI" %}
+                    {% assign display_label = "View DOI" %}
+                  {% when "arXiv" %}
+                    {% assign display_label = "arXiv preprint" %}
+                  {% when "PDF" %}
+                    {% assign display_label = "Conference PDF" %}
+                {% endcase %}
+                <a class="pub-link" href="{{ link.url }}" target="_blank" rel="noreferrer noopener">{{ display_label }}</a>
               {% endfor %}
             </div>
           {% endif %}

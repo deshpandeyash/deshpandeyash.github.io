@@ -587,6 +587,22 @@ code {
   font-weight: 700;
 }
 
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--tint);
+  color: var(--teal-dark);
+  padding: 0.45rem 0.8rem;
+}
+
+.pub-link:hover {
+  border-color: #bfd2d8;
+  background: #fff;
+  text-decoration: none;
+}
+
 .empty-state {
   color: var(--muted);
   padding: 20px 0;
@@ -627,6 +643,49 @@ code {
 .timeline h2 {
   margin: 0 0 7px;
   font-size: 1.2rem;
+}
+
+.timeline h3,
+.cv-section h2 {
+  margin: 0 0 7px;
+}
+
+.cv-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+  margin-top: 34px;
+}
+
+.cv-sidebar {
+  display: grid;
+  gap: 20px;
+  position: sticky;
+  top: 96px;
+}
+
+.cv-main {
+  display: grid;
+  gap: 34px;
+}
+
+.cv-section {
+  max-width: 920px;
+}
+
+.cv-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.cv-list li,
+.timeline li {
+  margin: 0.45rem 0;
+}
+
+.cv-sidebar .info-card h2 {
+  font-size: 1.28rem;
 }
 
 .contact-panel {
@@ -717,6 +776,7 @@ code {
   .method-grid,
   .contact-panel,
   .teaching-card,
+  .cv-layout,
   .timeline article,
   .publication {
     grid-template-columns: 1fr;
@@ -729,6 +789,10 @@ code {
   .page-content {
     padding-top: 52px;
     padding-bottom: 64px;
+  }
+
+  .cv-sidebar {
+    position: static;
   }
 
   .footer-inner {
