@@ -1,20 +1,8 @@
-- id: deterministic-networking
-  number: "01"
-  title: Deterministic networking & latency modeling
-  short_summary: Predictable communication, bounded latency, and timing-aware system design.
-  eyebrow: "01 / Networking systems"
-  intro: I am interested in how networks can provide predictable service under realistic operating conditions. This includes reasoning about latency bounds, scheduling effects, queueing behavior, and the interaction between deterministic communication mechanisms and heterogeneous systems such as 5G-connected deployments.
-  detail: Latency modeling is central here—the goal is not only to measure delays, but to explain where they come from and how they compose across an end-to-end path.
-  chips:
-    - Deterministic networking
-    - Latency modeling
-    - 5G
-    - Performance analysis
 - id: clock-synchronization
-  number: "02"
+  number: "01"
   title: Clock synchronization
   short_summary: Uncertainty analysis, timestamping behavior, and distributed timing quality.
-  eyebrow: "02 / Timing systems"
+  eyebrow: "01 / Timing systems"
   intro: Clock synchronization remains a core theme in my work. I study how synchronization uncertainty accumulates across systems and network paths, with attention to timestamping, queueing, switch behavior, oscillator stability, and model-based interpretation of timing measurements.
   detail: A recurring objective is to make timing quality measurable and explainable, especially in settings where systems need to make decisions based on imperfect time information.
   chips:
@@ -22,6 +10,18 @@
     - Timestamping
     - Oscillator drift
     - Uncertainty bounds
+- id: deterministic-networking
+  number: "02"
+  title: Deterministic networking & latency modeling
+  short_summary: Predictable communication, bounded latency, and timing-aware system design.
+  eyebrow: "02 / Networking systems"
+  intro: I am interested in how networks can provide predictable service under realistic operating conditions. This includes reasoning about latency bounds, scheduling effects, queueing behavior, and the interaction between deterministic communication mechanisms and heterogeneous systems such as 5G-connected deployments.
+  detail: Latency modeling is central here—the goal is not only to measure delays, but to explain where they come from and how they compose across an end-to-end path.
+  chips:
+    - Deterministic networking
+    - Latency modeling
+    - 5G
+    - Performance analysis
 - id: digital-twins
   number: "03"
   title: Digital twins
@@ -46,4 +46,3 @@
     - Contention resolution
     - Randomized algorithms
     - Distributed coordination
-
