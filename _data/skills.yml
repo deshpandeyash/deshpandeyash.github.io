@@ -1,10 +1,10 @@
 - id: mathematical-modelling
   number: "01"
-  title: Mathematical modelling and Data analysis
+  title: Mathematical modelling and data analysis
   short_summary: Building mathematical models to analyze and predict network system behavior.
   eyebrow: "01 / Skills"
   intro: Over time and through various projects, I have developed expertise in constructing and analyzing mathematical models for networked systems.
-  detail: For my work in clock synchronization and deterministic networking, I developed stochastic models using probability theory and stochastic and deterministic network calculus. During my work in tree-splitting algorithms, I worked on graph theory, probability theory and combinatorial analysis. All my work consisted of collecting experimental data and performing rigorous data analysis to validate the models.
+  detail: In my work on clock synchronization and deterministic networking, I developed stochastic models using probability theory as well as stochastic and deterministic network calculus. In my work on tree-splitting algorithms, I applied graph theory, probability theory, and combinatorial analysis. Across all of these areas, I collected experimental data and performed rigorous analysis to validate the models.
   chips:
     - Stochastic models
     - Graph theory
@@ -19,85 +19,71 @@
 - id: measurements
   number: "02"
   title: Measurements
-  short_summary: I built many testbeds and measurement setups to collect and analyze network system behavior.
+  short_summary: Building testbeds and measurement setups to capture and analyze network behavior.
   eyebrow: "02 / Skills"
   intro: Over the years, I have gained extensive experience in setting up measurement infrastructures and conducting experiments to measure latency, oscillator stability, and overall network performance.
-  detail: I have expereince with instruments such as Calnex Paragon-X and R&S TSMA along with oscilloscopes, frequency analyzers, capture cards and network taps. In many cases, I had to invent custom devices such as [OpenAirLink](https://github.com/N3Martix/OpenAirLink) and a [latency measurement setup](https://ieeexplore.ieee.org/abstract/document/10226161/).
+  detail: I have experience with instruments such as Calnex Paragon-X and R&S TSMA, as well as oscilloscopes, frequency analyzers, capture cards, and network taps. In many cases, I had to invent custom devices such as [OpenAirLink](https://github.com/N3Martix/OpenAirLink) and a [latency measurement setup](https://ieeexplore.ieee.org/abstract/document/10226161/). I also set up an OpenAirInterface testbed for 5G experimentation.
   chips:
     - Instrumentation
-    - Hardware timestamping
+    - Precision measurement
     - Trace analysis
-    - Validation
+    - Network emulation
   tools:
     - Wireshark
     - tcpdump
-    - DPDK
-    - XDP
+    - OpenAirInterface
+    - Netronome Capture Card
 - id: simulation
   number: "03"
   title: Simulation
-  short_summary: Placeholder summary for simulation work and tools.
+  short_summary: Platform and protocol simulation for networked systems.
   eyebrow: "03 / Skills"
-  intro: Add your simulation-focused description here.
-  detail: Use this section to describe the environments, abstractions, and kinds of problems you approach through simulation.
+  intro: I have experience in simulating networked systems at various levels of abstraction, from protocol design to packet-level and wireless network simulations.
+  detail: I used simulation to evaluate new network protocols at scale. I focused both on the accuracy of protocol behavior and on the efficiency of simulation for large-scale scenarios. I built a custom simulator in Python for tree-splitting algorithms. For clock synchronization, I worked with the INET library within OMNeT++. For wireless network simulation, I used NVIDIA Sionna, MATLAB, and ns-3 at different points to model and analyze the performance of 5G and beyond networks.
   chips:
-    - SimPy
-    - ns-3
-    - OMNeT++
-    - System evaluation
+    - Protocol
+    - Packet-level
+    - Wireless
+    - Discrete-event
   tools:
     - SimPy
-    - ns-3
     - OMNeT++
-    - C++
+    - ns-3
+    - NVIDIA Sionna
 - id: sysadmin
   number: "04"
   title: SysAdmin
-  short_summary: Placeholder summary for systems administration and infrastructure work.
+  short_summary: Maintenance of research infrastructure and services within the group.
   eyebrow: "04 / Skills"
-  intro: Add your systems administration description here.
-  detail: Use this section to describe platform setup, automation, deployment, and operational responsibilities you want to highlight.
+  intro: I have been responsible for the administration and maintenance of research infrastructure, ensuring smooth operation of servers, networks, and development environments within the group.
+  detail: I handled the maintenance and upgrades of 14 simulation and service-delivery servers, backups of critical data, and overall availability. I installed new machines, retired old ones, built redundant networks, and managed isolation and access controls. The simulation servers were managed on Proxmox, while installations and access control were handled through Ansible. I also replaced hard drives and faulty components on switches and servers.
   chips:
     - Linux
     - Automation
     - Deployment
     - Operations
+    - HPC infrastructure
   tools:
     - Linux
     - Bash
     - Docker
-    - GitHub Actions
+    - Ansible
+    - Proxmox
 - id: networking-protocols
   number: "05"
   title: Networking protocols
-  short_summary: Placeholder summary for protocol design, implementation, and evaluation.
+  short_summary: Working across networking protocols in both wired and wireless systems.
   eyebrow: "05 / Skills"
-  intro: Add your networking protocol description here.
-  detail: Use this section to cover protocols, packet processing, and network-stack knowledge across wired and wireless systems.
+  intro: My experience spans multiple networking protocols, including both wired and wireless systems.
+  detail: I have worked across the full protocol stack, from the physical layer to the application layer, and with both standard and custom networking protocols. Developing new clock-synchronization protocols and testing them on Tofino switches using P4 has been a key part of my work. I also have experience with wireless protocols such as IEEE 802.15.4 and 5G networks.
   chips:
-    - PTP
-    - TSN
-    - MAC
-    - Routing
+    - PTP/NTP
+    - TCP/IP
+    - 5G NR
+    - BGP
+    - 802.1Q
   tools:
     - P4
     - Linux networking
-    - Ethernet
+    - Switch CLI
     - IEEE 1588 PTP
-- id: 5g-testbed
-  number: "06"
-  title: 5G testbed
-  short_summary: Placeholder summary for 5G platform and testbed experience.
-  eyebrow: "06 / Skills"
-  intro: Add your 5G testbed description here.
-  detail: Use this section to describe experimentation, integration, and performance analysis on 5G-connected systems or lab infrastructure.
-  chips:
-    - 5G
-    - Testbeds
-    - SDR
-    - Experimental systems
-  tools:
-    - OpenAirInterface
-    - USRP
-    - SDR
-    - Azure
