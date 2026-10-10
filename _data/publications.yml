@@ -19,15 +19,14 @@
   - Deterministic networking & latency modeling
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on clock synchronization and network timing uncertainty.
+  summary: Research related to clock synchronization and network timing uncertainty.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: Improving Network Clock Synchronization by Marking Congestion Yash
     Deshpande, Quirin Vogel, Laura Becker, Kaan Aykurt, Wolfgang Kellerer arXiv preprint
     arXiv:2604.12961 Clock synchronization Deterministic networking & latency modeling
-    First-authored First-authored work on clock synchronization and network timing
-    uncertainty.
+    First-authored Research related to clock synchronization and network timing uncertainty.
 - key: deshpande2026strict
   slug: deshpande2026strict
   title: Strict-Priority Packet Delay in Switches with Transmit-Ring Buffering
@@ -46,7 +45,7 @@
   - Clock synchronization
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
@@ -54,7 +53,7 @@
   search_text: Strict-Priority Packet Delay in Switches with Transmit-Ring Buffering
     Yash Deshpande, Quirin Vogel, Wolfgang Kellerer arXiv preprint arXiv:2606.09619
     Deterministic networking & latency modeling Clock synchronization First-authored
-    First-authored work on deterministic networking and latency-aware network behavior.
+    Research related to deterministic networking and latency-aware network behavior.
 - key: becker2026joint
   slug: becker2026joint
   title: Joint resource allocation to transparently integrate 5g tdd uplink with time-aware
@@ -74,7 +73,7 @@
   - Clock synchronization
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
@@ -82,7 +81,7 @@
   search_text: Joint resource allocation to transparently integrate 5g tdd uplink
     with time-aware tsn Laura Becker, Yash Deshpande, Wolfgang Kellerer NOMS 2026-2026
     IEEE Network Operations and Management Symposium, 1–9 Deterministic networking
-    & latency modeling Clock synchronization Co-authored Co-authored work on deterministic
+    & latency modeling Clock synchronization Co-authored Research related to deterministic
     networking and latency-aware network behavior.
 - key: jano2026quest
   slug: jano2026quest
@@ -101,7 +100,7 @@
   - Deterministic networking & latency modeling
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
@@ -109,7 +108,7 @@
   search_text: 'QUEST: User-Based Quality of Service Aware Uplink Resource Scheduling
     Alba Jano, Serkut Ayvaşik, Yash Deshpande, Wolfgang Kellerer IEEE Transactions
     on Network and Service Management Deterministic networking & latency modeling
-    Co-authored Co-authored work on deterministic networking and latency-aware network
+    Co-authored Research related to deterministic networking and latency-aware network
     behavior.'
 - key: deshpande2025twinran
   slug: deshpande2025twinran
@@ -129,14 +128,14 @@
   - Deterministic networking & latency modeling
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on digital-twin-driven system modeling and evaluation.
+  summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: 'TwinRAN: Twinning the 5G RAN in Azure Cloud Yash Deshpande, Eni Sulkaj,
     Wolfgang Kellerer NOMS 2025 - 2025 IEEE/IFIP Network Operations and Management
     Symposium Digital twins Deterministic networking & latency modeling First-authored
-    First-authored work on digital-twin-driven system modeling and evaluation.'
+    Research related to digital-twin-driven system modeling and evaluation.'
 - key: zhao2025entwurf
   slug: zhao2025entwurf
   title: Entwurf eines Informationsmodells und einer Kommunikationsschnittstelle für
@@ -161,7 +160,7 @@
   - Digital twins
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on digital-twin-driven system modeling and evaluation.
+  summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
@@ -170,7 +169,7 @@
     in Produktionstechnologien Jingyun Zhao, Birgit Vogel-Heuser, Josua Höfgen, Dominik
     Hujo, Yash Deshpande, Marko Pavlic, Wolfgang Kellerer, Darius Burschka 26. Leitkongress
     der Mess-und Automatisierungstechnik AUTOMATION 2025 Digital twins Co-authored
-    Co-authored work on digital-twin-driven system modeling and evaluation.
+    Research related to digital-twin-driven system modeling and evaluation.
 - key: zhao2025ki
   slug: zhao2025ki
   title: 'KI. Fabrik Software Architecture: A Semantically Enriched Message Model
@@ -195,7 +194,7 @@
   - Digital twins
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on digital-twin-driven system modeling and evaluation.
+  summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
@@ -203,7 +202,7 @@
     Model for Multi-Agent Systems in Hybrid Manufacturing Jingyun Zhao, Birgit Vogel-Heuser,
     Josua Höfgen, Dominik Hujo-Lauer, Yash Deshpande, Vineet Nagrath, Marko Pavlic,
     Wolfgang Kellerer, Darius Burschka 1st German Robotics Conference Digital twins
-    Co-authored Co-authored work on digital-twin-driven system modeling and evaluation.'
+    Co-authored Research related to digital-twin-driven system modeling and evaluation.'
 - key: diederich2025lcdn
   slug: diederich2025lcdn
   title: 'LCDN: Providing network determinism with low-cost switches'
@@ -228,7 +227,7 @@
   - Digital twins
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
@@ -237,7 +236,7 @@
     Diederich, Yash Deshpande, Laura Becker, David Raunecker, Alexej Grigorjew, Tobias
     Hoßfeld, Wolfgang Kellerer 2025 21st International Conference on Network and Service
     Management (CNSM), 1–9 Deterministic networking & latency modeling Digital twins
-    Co-authored Co-authored work on deterministic networking and latency-aware network
+    Co-authored Research related to deterministic networking and latency-aware network
     behavior.'
 - key: kutsevol2025learning
   slug: kutsevol2025learning
@@ -256,7 +255,7 @@
   - Deterministic networking & latency modeling
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
@@ -264,7 +263,7 @@
   search_text: Learning Semantic Congestion Control for Cyber Physical Systems Polina
     Kutsevol, Yash Deshpande, Wolfgang Kellerer 2025 21st International Conference
     on Network and Service Management (CNSM), 1–9 Deterministic networking & latency
-    modeling Co-authored Co-authored work on deterministic networking and latency-aware
+    modeling Co-authored Research related to deterministic networking and latency-aware
     network behavior.
 - key: steininger2025performance
   slug: steininger2025performance
@@ -287,15 +286,15 @@
   - Deterministic networking & latency modeling
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: Performance Evaluation of L4S in XR Scenarios. Philipp Steininger,
     Rastin Pries, Yash Deshpande, Kaan Aykurt, Chia-Yu Chang, Koen De Schepper, Wolfgang
-    Kellerer Networking Deterministic networking & latency modeling Co-authored Co-authored
-    work on deterministic networking and latency-aware network behavior.
+    Kellerer Networking Deterministic networking & latency modeling Co-authored Research
+    related to deterministic networking and latency-aware network behavior.
 - key: deshpande2024integrating
   slug: deshpande2024integrating
   title: Integrating Deterministic Networking with 5G
@@ -319,7 +318,7 @@
   - Digital twins
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Scholar entry
@@ -327,8 +326,8 @@
   search_text: Integrating Deterministic Networking with 5G Yash Deshpande, Philip
     Diederich, Muhamad Luthfi, Laura Becker, José Fontalvo-Hernández, Wolfgang Kellerer
     2024 20th International Conference on Network and Service Management (CNSM), 1–3
-    Deterministic networking & latency modeling Digital twins First-authored First-authored
-    work on deterministic networking and latency-aware network behavior.
+    Deterministic networking & latency modeling Digital twins First-authored Research
+    related to deterministic networking and latency-aware network behavior.
 - key: deshpande2024openairlink
   slug: deshpande2024openairlink
   title: 'OpenAirLink: Reproducible Wireless Channel Emulation using Software Defined
@@ -346,7 +345,7 @@
   - Deterministic networking & latency modeling
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
@@ -354,7 +353,7 @@
   search_text: 'OpenAirLink: Reproducible Wireless Channel Emulation using Software
     Defined Radios Yash Deshpande, Xianglong Wang, Wolfgang Kellerer 2024 IFIP Networking
     Conference (IFIP Networking) Deterministic networking & latency modeling First-authored
-    First-authored work on deterministic networking and latency-aware network behavior.'
+    Research related to deterministic networking and latency-aware network behavior.'
 - key: vogel2024analysis
   slug: vogel2024analysis
   title: Analysis of-ary tree algorithms with successive interference cancellation
@@ -372,14 +371,14 @@
   - Tree splitting algorithms
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on tree-splitting algorithms and scalable contention resolution.
+  summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: Analysis of-ary tree algorithms with successive interference cancellation
     Quirin Vogel, Yash Deshpande, Cedomir Stefanović, Wolfgang Kellerer Journal of
-    Applied Probability, 61(3), 1075–1105 Tree splitting algorithms Co-authored Co-authored
-    work on tree-splitting algorithms and scalable contention resolution.
+    Applied Probability, 61(3), 1075–1105 Tree splitting algorithms Co-authored Research
+    related to tree-splitting algorithms and scalable contention resolution.
 - key: bhadauria2024evaluation
   slug: bhadauria2024evaluation
   title: Evaluation of nr-sidelink for cooperative industrial agvs
@@ -397,7 +396,7 @@
   - Deterministic networking & latency modeling
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
@@ -405,7 +404,7 @@
   search_text: Evaluation of nr-sidelink for cooperative industrial agvs Shubhangi
     Bhadauria, Klea Plaku, Yash Deshpande, Wolfgang Kellerer 2024 IEEE 21st Consumer
     Communications & Networking Conference (CCNC), 777–783 Deterministic networking
-    & latency modeling Co-authored Co-authored work on deterministic networking and
+    & latency modeling Co-authored Research related to deterministic networking and
     latency-aware network behavior.
 - key: vogel2024modeling
   slug: vogel2024modeling
@@ -436,7 +435,7 @@
   - Deterministic networking & latency modeling
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on digital-twin-driven system modeling and evaluation.
+  summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
@@ -444,7 +443,7 @@
     digital twins in KI. Fabrik Birgit Vogel-Heuser, Yash Deshpande, Fandi Hartl,
     Jingyun Zhao, Xuezhou Hou, Dominik Hujo, Theresa Prinz, Marko Pavlic, Darius Burschka,
     Klaus Bengler, others AT-AUTOMATISIERUNGSTECHNIK, 72(10), 958–979 Digital twins
-    Deterministic networking & latency modeling Co-authored Co-authored work on digital-twin-driven
+    Deterministic networking & latency modeling Co-authored Research related to digital-twin-driven
     system modeling and evaluation.
 - key: vogel2024modellierung
   slug: vogel2024modellierung
@@ -475,7 +474,7 @@
   - Deterministic networking & latency modeling
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on digital-twin-driven system modeling and evaluation.
+  summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
@@ -483,8 +482,8 @@
     mit Digitalen Zwillingen der KI. Fabrik Birgit Vogel-Heuser, Yash Deshpande, Fandi
     Hartl, Jingyun Zhao, Xuezhou Hou, Dominik Hujo, Theresa Prinz, Marko Pavlic, Darius
     Burschka, Klaus Bengler, others at-Automatisierungstechnik, 72(10), 958–979 Digital
-    twins Deterministic networking & latency modeling Co-authored Co-authored work
-    on digital-twin-driven system modeling and evaluation.
+    twins Deterministic networking & latency modeling Co-authored Research related
+    to digital-twin-driven system modeling and evaluation.
 - key: deshpande2023towards
   slug: deshpande2023towards
   title: Towards a network aware model of the time uncertainty bound in precision
@@ -505,7 +504,7 @@
   - Deterministic networking & latency modeling
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on clock synchronization and network timing uncertainty.
+  summary: Research related to clock synchronization and network timing uncertainty.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
@@ -513,7 +512,7 @@
     time protocol Yash Deshpande, Philip Diederich, Wolfgang Kellerer IEEE INFOCOM
     2023-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS), 1–2
     Clock synchronization Deterministic networking & latency modeling First-authored
-    First-authored work on clock synchronization and network timing uncertainty.
+    Research related to clock synchronization and network timing uncertainty.
 - key: vogel2023advanced
   slug: vogel2023advanced
   title: An Advanced Tree Algorithm with Interference Cancellation in Uplink and Downlink
@@ -531,14 +530,14 @@
   - Tree splitting algorithms
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on tree-splitting algorithms and scalable contention resolution.
+  summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: An Advanced Tree Algorithm with Interference Cancellation in Uplink
     and Downlink Quirin Vogel, Yash Deshpande, Cedomir Stefanovicl, Wolfgang Kellerer
     2023 57th Asilomar Conference on Signals, Systems, and Computers, 72–79 Tree splitting
-    algorithms Co-authored Co-authored work on tree-splitting algorithms and scalable
+    algorithms Co-authored Research related to tree-splitting algorithms and scalable
     contention resolution.
 - key: vogel2023delay
   slug: vogel2023delay
@@ -567,7 +566,7 @@
   - Deterministic networking & latency modeling
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on digital-twin-driven system modeling and evaluation.
+  summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
@@ -576,7 +575,7 @@
     Jingyun Zhao, Dominik Hujo, Wolfgang Kellerer, André Kraft, Bernd Vojanec, Timo
     Markert 2023 IEEE 19th International Conference on Automation Science and Engineering
     (CASE), 1–8 Digital twins Deterministic networking & latency modeling Co-authored
-    Co-authored work on digital-twin-driven system modeling and evaluation.
+    Research related to digital-twin-driven system modeling and evaluation.
 - key: bi2023dezentrale
   slug: bi2023dezentrale
   title: Dezentrale, rekursive, flexible Multi-Agenten Softwarearchitektur als Grundlage
@@ -603,7 +602,7 @@
   - Digital twins
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on digital-twin-driven system modeling and evaluation.
+  summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
@@ -611,7 +610,7 @@
     Grundlage einer Fabrik der Zukunft für KI-gestützte Produktionstechnologien Fandi
     Bi, Birgit Vogel-Heuser, Darius Burschka, Klaus Bengler, Andre Kraft, Wolfgang
     Kellerer, Marko Pavlic, Yash Deshpande, Theresa Prinz, Peter Krumbholz VDI-Kongress
-    AUTOMATION (VDI KA) Digital twins Co-authored Co-authored work on digital-twin-driven
+    AUTOMATION (VDI KA) Digital twins Co-authored Research related to digital-twin-driven
     system modeling and evaluation.
 - key: ayvacsik2023remote
   slug: ayvacsik2023remote
@@ -636,7 +635,7 @@
   - Deterministic networking & latency modeling
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on deterministic networking and latency-aware network
+  summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
   - label: Google Scholar
@@ -645,7 +644,7 @@
     hub testbed Serkut Ayvaşık, Edwin Babaians, Arled Papa, Yash Deshpande, Alba Jano,
     Wolfgang Kellerer, Eckehard Steinbach 2023 IEEE 24th International Symposium on
     a World of Wireless, Mobile and Multimedia Networks (WoWMoM), 349–351 Deterministic
-    networking & latency modeling Co-authored Co-authored work on deterministic networking
+    networking & latency modeling Co-authored Research related to deterministic networking
     and latency-aware network behavior.
 - key: stefanovic2023tree
   slug: stefanovic2023tree
@@ -664,14 +663,14 @@
   - Tree splitting algorithms
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on tree-splitting algorithms and scalable contention resolution.
+  summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: Tree-Algorithms with Multi-Packet Reception and Successive Interference
     Cancellation Cedomir Stefanovic, Yash Deshpande, H. Murat Gürsu, Kellerer Wolfgang
     IEEE Transactions on Communications, 71(11), 6287–6300 Tree splitting algorithms
-    Co-authored Co-authored work on tree-splitting algorithms and scalable contention
+    Co-authored Research related to tree-splitting algorithms and scalable contention
     resolution.
 - key: deshpande2022corrections
   slug: deshpande2022corrections
@@ -691,16 +690,15 @@
   - Tree splitting algorithms
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on tree-splitting algorithms and scalable contention
-    resolution.
+  summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: Corrections to “High-Throughput Random Access Using Successive Interference
     Cancellation in a Tree Algorithm” Yash Deshpande, Čedomir Stefanović, H Murat
     Gürsu, Wolfgang Kellerer IEEE Transactions on Information Theory, 69(3), 1658–1659
-    Tree splitting algorithms First-authored First-authored work on tree-splitting
-    algorithms and scalable contention resolution.
+    Tree splitting algorithms First-authored Research related to tree-splitting algorithms
+    and scalable contention resolution.
 - key: deshpande2022improving
   slug: deshpande2022improving
   title: Improving AoI via Learning-based Distributed MAC in Wireless Networks
@@ -718,15 +716,14 @@
   - Tree splitting algorithms
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on tree-splitting algorithms and scalable contention
-    resolution.
+  summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: Improving AoI via Learning-based Distributed MAC in Wireless Networks
     Yash Deshpande, Onur Ayan, Wolfgang Kellerer IEEE INFOCOM 2022 - IEEE Conference
     on Computer Communications Workshops (INFOCOM WKSHPS), 8 Tree splitting algorithms
-    First-authored First-authored work on tree-splitting algorithms and scalable contention
+    First-authored Research related to tree-splitting algorithms and scalable contention
     resolution.
 - key: deshpande2022d
   slug: deshpande2022d
@@ -745,15 +742,14 @@
   - Tree splitting algorithms
   authorship: first-author
   authorship_label: First-authored
-  summary: First-authored work on tree-splitting algorithms and scalable contention
-    resolution.
+  summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: On d-ary tree algorithms with successive interference cancellation
     Yash Deshpande, Cedomir Stefanovic, H Murat Gürsu, Wolfgang Kellerer arXiv preprint
-    arXiv:2208.04066 Tree splitting algorithms First-authored First-authored work
-    on tree-splitting algorithms and scalable contention resolution.
+    arXiv:2208.04066 Tree splitting algorithms First-authored Research related to
+    tree-splitting algorithms and scalable contention resolution.
 - key: stefanovic2020analysis
   slug: stefanovic2020analysis
   title: Analysis of tree-algorithms with multi-packet reception
@@ -771,11 +767,11 @@
   - Tree splitting algorithms
   authorship: co-authored
   authorship_label: Co-authored
-  summary: Co-authored work on tree-splitting algorithms and scalable contention resolution.
+  summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
   search_text: Analysis of tree-algorithms with multi-packet reception Čedomir Stefanović,
     H Murat Gürsu, Yash Deshpande, Wolfgang Kellerer GLOBECOM 2020-2020 IEEE Global
-    Communications Conference, 1–6 Tree splitting algorithms Co-authored Co-authored
-    work on tree-splitting algorithms and scalable contention resolution.
+    Communications Conference, 1–6 Tree splitting algorithms Co-authored Research
+    related to tree-splitting algorithms and scalable contention resolution.

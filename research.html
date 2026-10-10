@@ -36,12 +36,7 @@ permalink: /research/
         <h3>Related publications</h3>
         <ul>
           {% for publication in related_publications %}
-            <li>
-              <a href="{{ '/publications/' | relative_url }}#pub-{{ publication.slug }}">{{ publication.title }}</a>
-              {% if publication.authorship == 'co-authored' %}
-                <span class="small muted">(co-authored)</span>
-              {% endif %}
-            </li>
+            <li><a href="{{ '/publications/' | relative_url }}#pub-{{ publication.slug }}">{{ publication.title }}</a></li>
           {% endfor %}
         </ul>
       </div>

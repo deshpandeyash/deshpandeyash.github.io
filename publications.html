@@ -8,7 +8,7 @@ permalink: /publications/
 <main id="main" class="container page-content">
   <p class="eyebrow">Publications</p>
   <h1>Publications & public writing</h1>
-  <p class="page-lead">A selected list of public research outputs, including both first-authored and co-authored work, with each entry tagged by the broader research directions it contributes to.</p>
+  <p class="page-lead">A selected list of public research outputs, with each entry tagged by the broader research directions it contributes to.</p>
 
   <section class="topic-grid topic-grid-compact">
     {% for direction in site.data.research_directions %}
@@ -28,12 +28,6 @@ permalink: /publications/
         <button class="filter-chip" type="button" data-filter-group="tag" data-filter-value="{{ direction.id }}">{{ direction.title }}</button>
       {% endfor %}
     </div>
-    <div class="filter-group">
-      <span class="filter-label">Authorship</span>
-      <button class="filter-chip is-active" type="button" data-filter-group="authorship" data-filter-value="all">All authorship</button>
-      <button class="filter-chip" type="button" data-filter-group="authorship" data-filter-value="first-author">First-authored</button>
-      <button class="filter-chip" type="button" data-filter-group="authorship" data-filter-value="co-authored">Co-authored</button>
-    </div>
   </div>
 
   <div class="filter-row">
@@ -47,16 +41,12 @@ permalink: /publications/
         class="publication"
         id="pub-{{ publication.slug }}"
         data-tags="{{ publication.tags | join: ' ' }}"
-        data-authorship="{{ publication.authorship }}"
         data-search="{{ publication.search_text | escape }}">
         <div class="pub-year">{{ publication.year }}</div>
         <div>
           <h2>{{ publication.title }}</h2>
           <p class="authors">{{ publication.authors_display }}</p>
-          <div class="pub-meta-line">
-            <p class="venue">{{ publication.venue }}</p>
-            <span class="pub-authorship">{{ publication.authorship_label }}</span>
-          </div>
+          <p class="venue">{{ publication.venue }}</p>
           <div class="pub-tags">
             {% for tag in publication.tags %}
               {% assign direction = site.data.research_directions | where: "id", tag | first %}

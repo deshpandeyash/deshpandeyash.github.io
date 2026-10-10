@@ -5,7 +5,7 @@ A responsive personal website built with Jekyll and a BibTeX-backed publication 
 ## Pages included
 - `index.html` — home and highlighted research/publications
 - `research.html` — broad research directions, each with related-publication links
-- `publications.html` — searchable publication list with filters for topic and authorship
+- `publications.html` — searchable publication list with topic-based filters
 - `teaching.html` — teaching activities
 - `cv.html` — education and experience, with a downloadable CV
 - `contact.html` — contact details and external profiles

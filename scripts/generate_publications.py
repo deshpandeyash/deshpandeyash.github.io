@@ -68,7 +68,7 @@ def normalize_name(value: str) -> str:
     return re.sub(r"[^a-z]", "", value.lower())
 
 
-def generic_summary(title: str, tags: list[str], authorship: str) -> str:
+def generic_summary(tags: list[str]) -> str:
     topic_map = {
         "deterministic-networking": "deterministic networking and latency-aware network behavior",
         "clock-synchronization": "clock synchronization and network timing uncertainty",
@@ -79,8 +79,7 @@ def generic_summary(title: str, tags: list[str], authorship: str) -> str:
     if not topics:
         topics = ["networked systems research"]
     primary_topic = topics[0]
-    prefix = "First-authored work on" if authorship == "first-author" else "Co-authored work on"
-    return f"{prefix} {primary_topic}."
+    return f"Research related to {primary_topic}."
 
 
 def main() -> None:
@@ -120,7 +119,7 @@ def main() -> None:
             "tag_titles": [direction_titles[tag] for tag in tags if tag in direction_titles],
             "authorship": authorship,
             "authorship_label": "First-authored" if authorship == "first-author" else "Co-authored",
-            "summary": override.get("summary", generic_summary(title, tags, authorship)),
+            "summary": override.get("summary", generic_summary(tags)),
             "links": links or [{"label": "Google Scholar", "url": overrides["scholar_profile_url"]}],
         }
         search_text_parts = [

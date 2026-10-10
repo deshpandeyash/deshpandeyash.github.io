@@ -22,7 +22,6 @@ if (search) {
   const filters = {
     query: "",
     tag: "all",
-    authorship: "all",
   };
 
   const applyFilters = () => {
@@ -32,8 +31,7 @@ if (search) {
       const tags = (item.dataset.tags || "").split(/\s+/).filter(Boolean);
       const matchesQuery = searchableText.includes(filters.query);
       const matchesTag = filters.tag === "all" || tags.includes(filters.tag);
-      const matchesAuthorship = filters.authorship === "all" || item.dataset.authorship === filters.authorship;
-      const show = matchesQuery && matchesTag && matchesAuthorship;
+      const show = matchesQuery && matchesTag;
       item.hidden = !show;
       if (show) {
         visible += 1;
