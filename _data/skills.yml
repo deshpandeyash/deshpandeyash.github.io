@@ -18,10 +18,10 @@
 - id: measurements
   number: "02"
   title: Measurements
-  short_summary: Placeholder summary for experimental and measurement-driven work.
+  short_summary: I built many testbeds and measurement setups to collect and analyze network system behavior.
   eyebrow: "02 / Skills"
-  intro: Add your measurement and experimentation description here.
-  detail: Use this section to capture how you instrument systems, collect traces, and validate behavior under realistic conditions.
+  intro: Over the years, I have gained extensive experience in setting up measurement infrastructures and conducting experiments to understand network system behavior.
+  detail: I focus on instrumenting systems, collecting traces, and validating behavior under realistic conditions to ensure accurate and reliable results.
   chips:
     - Instrumentation
     - Hardware timestamping
