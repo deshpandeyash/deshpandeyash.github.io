@@ -3,6 +3,7 @@ layout: default
 title: Publications
 description: Publications by Yash Deshpande.
 nav_id: publications
+permalink: /publications/
 ---
 <main id="main" class="container page-content">
   <p class="eyebrow">Publications</p>
@@ -11,7 +12,7 @@ nav_id: publications
 
   <section class="topic-grid topic-grid-compact">
     {% for direction in site.data.research_directions %}
-      <a class="topic-card" href="{{ '/research.html' | relative_url }}#{{ direction.id }}">
+      <a class="topic-card" href="{{ '/research/' | relative_url }}#{{ direction.id }}">
         <span class="card-number">{{ direction.number }}</span>
         <h2>{{ direction.title }}</h2>
         <p>{{ direction.short_summary }}</p>
@@ -60,7 +61,7 @@ nav_id: publications
             {% for tag in publication.tags %}
               {% assign direction = site.data.research_directions | where: "id", tag | first %}
               {% if direction %}
-                <a href="{{ '/research.html' | relative_url }}#{{ direction.id }}">{{ direction.title }}</a>
+                <a href="{{ '/research/' | relative_url }}#{{ direction.id }}">{{ direction.title }}</a>
               {% endif %}
             {% endfor %}
           </div>
@@ -81,4 +82,3 @@ nav_id: publications
     <span>Each publication can belong to one or more research directions, and each direction on the research page links back to its public outputs. This list is generated from <code>publications.bib</code> and override metadata for tags and optional links.</span>
   </div>
 </main>
-
