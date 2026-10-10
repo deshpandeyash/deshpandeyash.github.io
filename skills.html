@@ -26,10 +26,25 @@ permalink: /skills/
       <h2>{{ skill.title }}</h2>
       <p>{{ skill.intro }}</p>
       <p>{{ skill.detail }}</p>
-      <div class="chips">
-        {% for chip in skill.chips %}
-          <span>{{ chip }}</span>
-        {% endfor %}
+      <div class="skill-chip-groups">
+        <div>
+          <p class="skill-chip-label">Focus</p>
+          <div class="chips">
+            {% for chip in skill.chips %}
+              <span>{{ chip }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        {% if skill.tools %}
+          <div>
+            <p class="skill-chip-label">Tools</p>
+            <div class="chips tool-chips">
+              {% for tool in skill.tools %}
+                <span>{{ tool }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
       </div>
     </section>
   {% endfor %}

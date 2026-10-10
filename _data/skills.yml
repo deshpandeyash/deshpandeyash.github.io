@@ -1,19 +1,20 @@
 - id: mathematical-modelling
   number: "01"
-  title: Mathematical modelling
-  short_summary: Placeholder summary for analytical and stochastic modeling.
+  title: Mathematical modelling and Data analysis
+  short_summary: Building mathematical models to analyze and predict network system behavior.
   eyebrow: "01 / Skills"
-  intro: Add your mathematical modeling description here.
-  detail: Use this section to explain the kinds of models you build and how they support analysis, design, or validation.
+  intro: Over time and through various projects, I have developed expertise in constructing and analyzing mathematical models for networked systems.
+  detail: For my work in clock synchronization and deterministic networking, I developed stochastic models using probability theory and stochastic and deterministic network calculus. During my work in tree-splitting algorithms, I worked on graph theory, probability theory and combinatorial analysis. All my work consisted of collecting experimental data and performing rigorous data analysis to validate the models.
   chips:
     - Stochastic models
+    - Graph theory
     - Performance analysis
     - Delay analysis
-    - Uncertainty bounds
-  related_research:
-    - clock-synchronization
-    - deterministic-networking
-    - tree-splitting-algorithms
+  tools:
+    - Python
+    - MATLAB
+    - NumPy
+    - SciPy
 - id: measurements
   number: "02"
   title: Measurements
@@ -26,10 +27,11 @@
     - Hardware timestamping
     - Trace analysis
     - Validation
-  related_research:
-    - clock-synchronization
-    - deterministic-networking
-    - digital-twins
+  tools:
+    - Wireshark
+    - tcpdump
+    - DPDK
+    - XDP
 - id: simulation
   number: "03"
   title: Simulation
@@ -42,10 +44,11 @@
     - ns-3
     - OMNeT++
     - System evaluation
-  related_research:
-    - deterministic-networking
-    - digital-twins
-    - tree-splitting-algorithms
+  tools:
+    - SimPy
+    - ns-3
+    - OMNeT++
+    - C++
 - id: sysadmin
   number: "04"
   title: SysAdmin
@@ -58,9 +61,11 @@
     - Automation
     - Deployment
     - Operations
-  related_research:
-    - deterministic-networking
-    - digital-twins
+  tools:
+    - Linux
+    - Bash
+    - Docker
+    - GitHub Actions
 - id: networking-protocols
   number: "05"
   title: Networking protocols
@@ -73,10 +78,11 @@
     - TSN
     - MAC
     - Routing
-  related_research:
-    - clock-synchronization
-    - deterministic-networking
-    - tree-splitting-algorithms
+  tools:
+    - P4
+    - Linux networking
+    - Ethernet
+    - IEEE 1588 PTP
 - id: 5g-testbed
   number: "06"
   title: 5G testbed
@@ -89,7 +95,8 @@
     - Testbeds
     - SDR
     - Experimental systems
-  related_research:
-    - clock-synchronization
-    - deterministic-networking
-    - digital-twins
+  tools:
+    - OpenAirInterface
+    - USRP
+    - SDR
+    - Azure
