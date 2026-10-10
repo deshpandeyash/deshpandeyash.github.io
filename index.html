@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic homepage of Yash Deshpande, researcher in computer networking and clock synchronization.">
+  <title>Yash Deshpande | Research</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html">YD<span>.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Academic homepage</p>
+        <h1>Yash Deshpande</h1>
+        <p class="lead">Researcher in computer networking, clock synchronization, and datacenter systems.</p>
+        <p>I am a Wissenschaftlicher Mitarbeiter at the Chair of Communication Networks at the Technical University of Munich (TUM). My work explores how networks can provide more accurate, predictable, and measurable timing services.</p>
+        <div class="hero-actions">
+          <a class="button" href="research.html">Explore my research</a>
+          <a class="button button-quiet" href="publications.html">View publications →</a>
+        </div>
+      </div>
+      <aside class="profile-card">
+        <div class="monogram">YD</div>
+        <p class="profile-label">Research interests</p>
+        <ul class="tag-list">
+          <li>Clock synchronization</li><li>Datacenter networks</li><li>Programmable switches</li><li>Network measurement</li>
+        </ul>
+        <div class="profile-rule"></div>
+        <p class="small">Technical University of Munich</p>
+        <p class="small muted">Chair of Communication Networks</p>
+      </aside>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">At a glance</p><h2>Research directions</h2></div>
+          <a class="text-link" href="research.html">All research →</a>
+        </div>
+        <div class="card-grid">
+          <article class="info-card"><span class="card-number">01</span><h3>Clock synchronization</h3><p>Understanding and bounding synchronization uncertainty across multi-hop networks, including the effects of queueing, switch processing, and oscillator drift.</p><a href="research.html#clock-sync">Read more →</a></article>
+          <article class="info-card"><span class="card-number">02</span><h3>Programmable networks</h3><p>Using programmable data planes and network telemetry to improve timing services and reason about network behavior.</p><a href="research.html#programmable-networks">Read more →</a></article>
+          <article class="info-card"><span class="card-number">03</span><h3>Datacenter systems</h3><p>Studying network performance and traffic-aware approaches to reliable timing in modern datacenter environments.</p><a href="research.html#datacenter">Read more →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <div><p class="eyebrow">Selected work</p><h2>Recent projects</h2></div>
+        <a class="text-link" href="research.html">Project details →</a>
+      </div>
+      <div class="project-row">
+        <div class="project-mark">TT</div><div><h3>TimeTether</h3><p>Analyzing and tracking clock-synchronization uncertainty across network paths using delay models and oscillator-drift information.</p><p class="project-meta">Clock synchronization · Network measurement</p></div>
+      </div>
+      <div class="project-row">
+        <div class="project-mark">CN</div><div><h3>Cross-queue congestion marking</h3><p>Exploring how congestion in other egress queues can inform the treatment of precision-time- protocol traffic in programmable switches.</p><p class="project-meta">Programmable data planes · PTP</p></div>
+      </div>
+      <div class="note-box"><strong>Looking for a paper?</strong><span>Visit the publications page for a curated list. Replace the clearly marked placeholders with verified titles, author lists, and links before publishing.</span><a href="publications.html">Publications →</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Yash Deshpande</span><span>Technical University of Munich · <a href="contact.html">Contact</a></span></div></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
