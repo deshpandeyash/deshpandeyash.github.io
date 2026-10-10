@@ -28,6 +28,17 @@ permalink: /publications/
         <button class="filter-chip" type="button" data-filter-group="tag" data-filter-value="{{ direction.id }}">{{ direction.title }}</button>
       {% endfor %}
     </div>
+    <div class="filter-group">
+      <span class="filter-label">Year</span>
+      <button class="filter-chip is-active" type="button" data-filter-group="year" data-filter-value="all">All years</button>
+      {% assign publication_years = site.data.publications | map: "year" | uniq | sort | reverse %}
+      {% for year in publication_years %}
+        <button class="filter-chip" type="button" data-filter-group="year" data-filter-value="{{ year }}">{{ year }}</button>
+      {% endfor %}
+    </div>
+    <div class="filter-actions">
+      <button class="filter-reset" type="button" id="clear-filters">Clear filters</button>
+    </div>
   </div>
 
   <div class="filter-row">
@@ -41,6 +52,7 @@ permalink: /publications/
         class="publication"
         id="pub-{{ publication.slug }}"
         data-tags="{{ publication.tags | join: ' ' }}"
+        data-year="{{ publication.year }}"
         data-search="{{ publication.search_text | escape }}">
         <div class="pub-year">{{ publication.year }}</div>
         <div>

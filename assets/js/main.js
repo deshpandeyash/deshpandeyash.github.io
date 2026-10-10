@@ -19,9 +19,11 @@ if (search) {
   const items = [...document.querySelectorAll(".publication")];
   const emptyState = document.querySelector("#empty-state");
   const filterButtons = [...document.querySelectorAll("[data-filter-group]")];
+  const clearFiltersButton = document.querySelector("#clear-filters");
   const filters = {
     query: "",
     tag: "all",
+    year: "all",
   };
 
   const applyFilters = () => {
@@ -31,7 +33,8 @@ if (search) {
       const tags = (item.dataset.tags || "").split(/\s+/).filter(Boolean);
       const matchesQuery = searchableText.includes(filters.query);
       const matchesTag = filters.tag === "all" || tags.includes(filters.tag);
-      const show = matchesQuery && matchesTag;
+      const matchesYear = filters.year === "all" || item.dataset.year === filters.year;
+      const show = matchesQuery && matchesTag && matchesYear;
       item.hidden = !show;
       if (show) {
         visible += 1;
@@ -62,4 +65,20 @@ if (search) {
       applyFilters();
     });
   });
+
+  if (clearFiltersButton) {
+    clearFiltersButton.addEventListener("click", () => {
+      filters.query = "";
+      filters.tag = "all";
+      filters.year = "all";
+      search.value = "";
+      filterButtons.forEach((button) => {
+        const isDefault =
+          (button.dataset.filterGroup === "tag" && button.dataset.filterValue === "all") ||
+          (button.dataset.filterGroup === "year" && button.dataset.filterValue === "all");
+        button.classList.toggle("is-active", isDefault);
+      });
+      applyFilters();
+    });
+  }
 }
