@@ -20,9 +20,7 @@
   authorship: first-author
   authorship_label: First-authored
   summary: Research related to clock synchronization and network timing uncertainty.
-  links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  links: []
   search_text: Improving Network Clock Synchronization by Marking Congestion Yash
     Deshpande, Quirin Vogel, Laura Becker, Kaan Aykurt, Wolfgang Kellerer arXiv preprint
     arXiv:2604.12961 Clock synchronization Deterministic networking & latency modeling
@@ -47,9 +45,7 @@
   authorship_label: First-authored
   summary: Research related to deterministic networking and latency-aware network
     behavior.
-  links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  links: []
   search_text: Strict-Priority Packet Delay in Switches with Transmit-Ring Buffering
     Yash Deshpande, Quirin Vogel, Wolfgang Kellerer arXiv preprint arXiv:2606.09619
     Deterministic networking & latency modeling Clock synchronization First-authored
@@ -76,8 +72,8 @@
   summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/noms69089.2026.11668258
   search_text: Joint resource allocation to transparently integrate 5g tdd uplink
     with time-aware tsn Laura Becker, Yash Deshpande, Wolfgang Kellerer NOMS 2026-2026
     IEEE Network Operations and Management Symposium, 1–9 Deterministic networking
@@ -103,8 +99,8 @@
   summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/tnsm.2026.3685537
   search_text: 'QUEST: User-Based Quality of Service Aware Uplink Resource Scheduling
     Alba Jano, Serkut Ayvaşik, Yash Deshpande, Wolfgang Kellerer IEEE Transactions
     on Network and Service Management Deterministic networking & latency modeling
@@ -130,8 +126,8 @@
   authorship_label: First-authored
   summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/noms57970.2025.11073616
   search_text: 'TwinRAN: Twinning the 5G RAN in Azure Cloud Yash Deshpande, Eni Sulkaj,
     Wolfgang Kellerer NOMS 2025 - 2025 IEEE/IFIP Network Operations and Management
     Symposium Digital twins Deterministic networking & latency modeling First-authored
@@ -162,8 +158,8 @@
   authorship_label: Co-authored
   summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.51202/9783181024577-387
   search_text: Entwurf eines Informationsmodells und einer Kommunikationsschnittstelle
     für Agentensysteme als Grundlage zukünftiger KI-gestützter Softwarearchitekturen
     in Produktionstechnologien Jingyun Zhao, Birgit Vogel-Heuser, Josua Höfgen, Dominik
@@ -195,9 +191,7 @@
   authorship: co-authored
   authorship_label: Co-authored
   summary: Research related to digital-twin-driven system modeling and evaluation.
-  links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  links: []
   search_text: 'KI. Fabrik Software Architecture: A Semantically Enriched Message
     Model for Multi-Agent Systems in Hybrid Manufacturing Jingyun Zhao, Birgit Vogel-Heuser,
     Josua Höfgen, Dominik Hujo-Lauer, Yash Deshpande, Vineet Nagrath, Marko Pavlic,
@@ -230,8 +224,8 @@
   summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.23919/cnsm67658.2025.11297417
   search_text: 'LCDN: Providing network determinism with low-cost switches Philip
     Diederich, Yash Deshpande, Laura Becker, David Raunecker, Alexej Grigorjew, Tobias
     Hoßfeld, Wolfgang Kellerer 2025 21st International Conference on Network and Service
@@ -258,8 +252,8 @@
   summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.23919/cnsm67658.2025.11297562
   search_text: Learning Semantic Congestion Control for Cyber Physical Systems Polina
     Kutsevol, Yash Deshpande, Wolfgang Kellerer 2025 21st International Conference
     on Network and Service Management (CNSM), 1–9 Deterministic networking & latency
@@ -288,9 +282,7 @@
   authorship_label: Co-authored
   summary: Research related to deterministic networking and latency-aware network
     behavior.
-  links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  links: []
   search_text: Performance Evaluation of L4S in XR Scenarios. Philipp Steininger,
     Rastin Pries, Yash Deshpande, Kaan Aykurt, Chia-Yu Chang, Koen De Schepper, Wolfgang
     Kellerer Networking Deterministic networking & latency modeling Co-authored Research
@@ -321,8 +313,8 @@
   summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
-  - label: Scholar entry
-    url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mc202fMAAAAJ&citation_for_view=mc202fMAAAAJ:_FxGoFyzp5QC
+  - label: DOI
+    url: https://doi.org/10.23919/cnsm62983.2024.10814502
   search_text: Integrating Deterministic Networking with 5G Yash Deshpande, Philip
     Diederich, Muhamad Luthfi, Laura Becker, José Fontalvo-Hernández, Wolfgang Kellerer
     2024 20th International Conference on Network and Service Management (CNSM), 1–3
@@ -348,8 +340,8 @@
   summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.23919/ifipnetworking62109.2024.10619070
   search_text: 'OpenAirLink: Reproducible Wireless Channel Emulation using Software
     Defined Radios Yash Deshpande, Xianglong Wang, Wolfgang Kellerer 2024 IFIP Networking
     Conference (IFIP Networking) Deterministic networking & latency modeling First-authored
@@ -373,8 +365,8 @@
   authorship_label: Co-authored
   summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1017/jpr.2023.107
   search_text: Analysis of-ary tree algorithms with successive interference cancellation
     Quirin Vogel, Yash Deshpande, Cedomir Stefanović, Wolfgang Kellerer Journal of
     Applied Probability, 61(3), 1075–1105 Tree splitting algorithms Co-authored Research
@@ -399,8 +391,8 @@
   summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/ccnc51664.2024.10454831
   search_text: Evaluation of nr-sidelink for cooperative industrial agvs Shubhangi
     Bhadauria, Klea Plaku, Yash Deshpande, Wolfgang Kellerer 2024 IEEE 21st Consumer
     Communications & Networking Conference (CCNC), 777–783 Deterministic networking
@@ -437,8 +429,8 @@
   authorship_label: Co-authored
   summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1515/auto-2023-0221
   search_text: Modeling and validation of latency in industrial agent systems with
     digital twins in KI. Fabrik Birgit Vogel-Heuser, Yash Deshpande, Fandi Hartl,
     Jingyun Zhao, Xuezhou Hou, Dominik Hujo, Theresa Prinz, Marko Pavlic, Darius Burschka,
@@ -476,8 +468,8 @@
   authorship_label: Co-authored
   summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1515/auto-2023-0221
   search_text: Modellierung und Validierung von Latenzzeiten in industriellen Agentensystemen
     mit Digitalen Zwillingen der KI. Fabrik Birgit Vogel-Heuser, Yash Deshpande, Fandi
     Hartl, Jingyun Zhao, Xuezhou Hou, Dominik Hujo, Theresa Prinz, Marko Pavlic, Darius
@@ -506,8 +498,8 @@
   authorship_label: First-authored
   summary: Research related to clock synchronization and network timing uncertainty.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/infocomwkshps57453.2023.10226161
   search_text: Towards a network aware model of the time uncertainty bound in precision
     time protocol Yash Deshpande, Philip Diederich, Wolfgang Kellerer IEEE INFOCOM
     2023-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS), 1–2
@@ -532,8 +524,8 @@
   authorship_label: Co-authored
   summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/ieeeconf59524.2023.10477014
   search_text: An Advanced Tree Algorithm with Interference Cancellation in Uplink
     and Downlink Quirin Vogel, Yash Deshpande, Cedomir Stefanovicl, Wolfgang Kellerer
     2023 57th Asilomar Conference on Signals, Systems, and Computers, 72–79 Tree splitting
@@ -568,8 +560,8 @@
   authorship_label: Co-authored
   summary: Research related to digital-twin-driven system modeling and evaluation.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/case56687.2023.10260673
   search_text: Delay modelling and measurement of multi-agent systems with digital
     twins in a gear assembly use case Birgit Vogel-Heuser, Yash Deshpande, Fandi Bi,
     Jingyun Zhao, Dominik Hujo, Wolfgang Kellerer, André Kraft, Bernd Vojanec, Timo
@@ -603,9 +595,7 @@
   authorship: co-authored
   authorship_label: Co-authored
   summary: Research related to digital-twin-driven system modeling and evaluation.
-  links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  links: []
   search_text: Dezentrale, rekursive, flexible Multi-Agenten Softwarearchitektur als
     Grundlage einer Fabrik der Zukunft für KI-gestützte Produktionstechnologien Fandi
     Bi, Birgit Vogel-Heuser, Darius Burschka, Klaus Bengler, Andre Kraft, Wolfgang
@@ -638,8 +628,8 @@
   summary: Research related to deterministic networking and latency-aware network
     behavior.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/wowmom57956.2023.00059
   search_text: Remote robot control with haptic feedback over the munich 5g research
     hub testbed Serkut Ayvaşık, Edwin Babaians, Arled Papa, Yash Deshpande, Alba Jano,
     Wolfgang Kellerer, Eckehard Steinbach 2023 IEEE 24th International Symposium on
@@ -665,8 +655,8 @@
   authorship_label: Co-authored
   summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/tcomm.2023.3305467
   search_text: Tree-Algorithms with Multi-Packet Reception and Successive Interference
     Cancellation Cedomir Stefanovic, Yash Deshpande, H. Murat Gürsu, Kellerer Wolfgang
     IEEE Transactions on Communications, 71(11), 6287–6300 Tree splitting algorithms
@@ -692,8 +682,8 @@
   authorship_label: First-authored
   summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/tit.2022.3208441
   search_text: Corrections to “High-Throughput Random Access Using Successive Interference
     Cancellation in a Tree Algorithm” Yash Deshpande, Čedomir Stefanović, H Murat
     Gürsu, Wolfgang Kellerer IEEE Transactions on Information Theory, 69(3), 1658–1659
@@ -718,8 +708,8 @@
   authorship_label: First-authored
   summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/infocomwkshps54753.2022.9798137
   search_text: Improving AoI via Learning-based Distributed MAC in Wireless Networks
     Yash Deshpande, Onur Ayan, Wolfgang Kellerer IEEE INFOCOM 2022 - IEEE Conference
     on Computer Communications Workshops (INFOCOM WKSHPS), 8 Tree splitting algorithms
@@ -743,9 +733,7 @@
   authorship: first-author
   authorship_label: First-authored
   summary: Research related to tree-splitting algorithms and scalable contention resolution.
-  links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  links: []
   search_text: On d-ary tree algorithms with successive interference cancellation
     Yash Deshpande, Cedomir Stefanovic, H Murat Gürsu, Wolfgang Kellerer arXiv preprint
     arXiv:2208.04066 Tree splitting algorithms First-authored Research related to
@@ -769,8 +757,8 @@
   authorship_label: Co-authored
   summary: Research related to tree-splitting algorithms and scalable contention resolution.
   links:
-  - label: Google Scholar
-    url: https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en
+  - label: DOI
+    url: https://doi.org/10.1109/globecom42002.2020.9322082
   search_text: Analysis of tree-algorithms with multi-packet reception Čedomir Stefanović,
     H Murat Gürsu, Yash Deshpande, Wolfgang Kellerer GLOBECOM 2020-2020 IEEE Global
     Communications Conference, 1–6 Tree splitting algorithms Co-authored Research

@@ -68,6 +68,21 @@ def normalize_name(value: str) -> str:
     return re.sub(r"[^a-z]", "", value.lower())
 
 
+def build_links(entry: dict[str, str], override: dict[str, object]) -> list[dict[str, str]]:
+    links = []
+
+    doi = clean_text(str(override.get("doi") or entry.get("doi") or ""))
+    if doi:
+        doi_url = doi if doi.startswith("http://") or doi.startswith("https://") else f"https://doi.org/{doi}"
+        links.append({"label": "DOI", "url": doi_url})
+
+    for link in override.get("links", []):
+        if link.get("label") and link.get("url"):
+            links.append({"label": str(link["label"]), "url": str(link["url"])})
+
+    return links
+
+
 def generic_summary(tags: list[str]) -> str:
     topic_map = {
         "deterministic-networking": "deterministic networking and latency-aware network behavior",
@@ -105,7 +120,7 @@ def main() -> None:
         venue = build_venue(entry)
         authorship = "first-author" if authors and normalize_name(authors[0]) == "yashdeshpande" else "co-authored"
         tags = override.get("tags", [])
-        links = override.get("links", [])
+        links = build_links(entry, override)
 
         publication = {
             "key": key,
@@ -120,7 +135,7 @@ def main() -> None:
             "authorship": authorship,
             "authorship_label": "First-authored" if authorship == "first-author" else "Co-authored",
             "summary": override.get("summary", generic_summary(tags)),
-            "links": links or [{"label": "Google Scholar", "url": overrides["scholar_profile_url"]}],
+            "links": links,
         }
         search_text_parts = [
             publication["title"],

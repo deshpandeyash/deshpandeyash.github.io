@@ -1,60 +1,70 @@
-scholar_profile_url: "https://scholar.google.com/citations?user=mc202fMAAAAJ&hl=en"
-
 entries:
   stefanovic2020analysis:
+    doi: 10.1109/globecom42002.2020.9322082
     tags:
       - tree-splitting-algorithms
   stefanovic2023tree:
+    doi: 10.1109/tcomm.2023.3305467
     tags:
       - tree-splitting-algorithms
   deshpande2022improving:
+    doi: 10.1109/infocomwkshps54753.2022.9798137
     tags:
       - tree-splitting-algorithms
   deshpande2022d:
     tags:
       - tree-splitting-algorithms
   deshpande2022corrections:
+    doi: 10.1109/tit.2022.3208441
     tags:
       - tree-splitting-algorithms
   vogel2024analysis:
+    doi: 10.1017/jpr.2023.107
     tags:
       - tree-splitting-algorithms
   ayvacsik2023remote:
+    doi: 10.1109/wowmom57956.2023.00059
     tags:
       - deterministic-networking
   deshpande2023towards:
+    doi: 10.1109/infocomwkshps57453.2023.10226161
     tags:
       - clock-synchronization
       - deterministic-networking
   vogel2023advanced:
+    doi: 10.1109/ieeeconf59524.2023.10477014
     tags:
       - tree-splitting-algorithms
   bhadauria2024evaluation:
+    doi: 10.1109/ccnc51664.2024.10454831
     tags:
       - deterministic-networking
   vogel2023delay:
+    doi: 10.1109/case56687.2023.10260673
     tags:
       - digital-twins
       - deterministic-networking
   deshpande2024openairlink:
+    doi: 10.23919/ifipnetworking62109.2024.10619070
     tags:
       - deterministic-networking
   deshpande2025twinran:
+    doi: 10.1109/noms57970.2025.11073616
     tags:
       - digital-twins
       - deterministic-networking
   diederich2025lcdn:
+    doi: 10.23919/cnsm67658.2025.11297417
     tags:
       - deterministic-networking
       - digital-twins
   deshpande2024integrating:
+    doi: 10.23919/cnsm62983.2024.10814502
     tags:
       - deterministic-networking
       - digital-twins
-    links:
-      - label: Scholar entry
-        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=mc202fMAAAAJ&citation_for_view=mc202fMAAAAJ:_FxGoFyzp5QC"
   vogel2024modellierung:
+    doi: 10.1515/auto-2023-0221
     tags:
       - digital-twins
       - deterministic-networking
@@ -62,6 +72,7 @@ entries:
     tags:
       - digital-twins
   vogel2024modeling:
+    doi: 10.1515/auto-2023-0221
     tags:
       - digital-twins
       - deterministic-networking
@@ -69,18 +80,22 @@ entries:
     tags:
       - digital-twins
   zhao2025entwurf:
+    doi: 10.51202/9783181024577-387
     tags:
       - digital-twins
   steininger2025performance:
     tags:
       - deterministic-networking
   jano2026quest:
+    doi: 10.1109/tnsm.2026.3685537
     tags:
       - deterministic-networking
   kutsevol2025learning:
+    doi: 10.23919/cnsm67658.2025.11297562
     tags:
       - deterministic-networking
   becker2026joint:
+    doi: 10.1109/noms69089.2026.11668258
     tags:
       - deterministic-networking
       - clock-synchronization
@@ -96,4 +111,3 @@ entries:
     tags:
       - deterministic-networking
       - clock-synchronization
-

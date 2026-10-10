@@ -68,11 +68,13 @@ permalink: /publications/
             {% endfor %}
           </div>
           <p>{{ publication.summary }}</p>
-          <div class="pub-links">
-            {% for link in publication.links %}
-              <a href="{{ link.url }}">{{ link.label }}</a>
-            {% endfor %}
-          </div>
+          {% if publication.links and publication.links.size > 0 %}
+            <div class="pub-links">
+              {% for link in publication.links %}
+                <a href="{{ link.url }}">{{ link.label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </article>
     {% endfor %}
