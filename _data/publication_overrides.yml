@@ -12,6 +12,9 @@ entries:
     tags:
       - tree-splitting-algorithms
   deshpande2022d:
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2208.04066
     tags:
       - tree-splitting-algorithms
   deshpande2022corrections:
@@ -84,6 +87,9 @@ entries:
     tags:
       - digital-twins
   steininger2025performance:
+    links:
+      - label: PDF
+        url: https://opendl.ifip-tc6.org/db/conf/networking/networking2025/1571141457.pdf
     tags:
       - deterministic-networking
   jano2026quest:
@@ -104,10 +110,16 @@ entries:
     tags:
       - tree-splitting-algorithms
   deshpande2026improving:
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2604.12961
     tags:
       - clock-synchronization
       - deterministic-networking
   deshpande2026strict:
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2606.09619
     tags:
       - deterministic-networking
       - clock-synchronization

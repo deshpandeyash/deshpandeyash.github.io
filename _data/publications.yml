@@ -20,7 +20,9 @@
   authorship: first-author
   authorship_label: First-authored
   summary: Research related to clock synchronization and network timing uncertainty.
-  links: []
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2604.12961
   search_text: Improving Network Clock Synchronization by Marking Congestion Yash
     Deshpande, Quirin Vogel, Laura Becker, Kaan Aykurt, Wolfgang Kellerer arXiv preprint
     arXiv:2604.12961 Clock synchronization Deterministic networking & latency modeling
@@ -45,7 +47,9 @@
   authorship_label: First-authored
   summary: Research related to deterministic networking and latency-aware network
     behavior.
-  links: []
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2606.09619
   search_text: Strict-Priority Packet Delay in Switches with Transmit-Ring Buffering
     Yash Deshpande, Quirin Vogel, Wolfgang Kellerer arXiv preprint arXiv:2606.09619
     Deterministic networking & latency modeling Clock synchronization First-authored
@@ -282,7 +286,9 @@
   authorship_label: Co-authored
   summary: Research related to deterministic networking and latency-aware network
     behavior.
-  links: []
+  links:
+  - label: PDF
+    url: https://opendl.ifip-tc6.org/db/conf/networking/networking2025/1571141457.pdf
   search_text: Performance Evaluation of L4S in XR Scenarios. Philipp Steininger,
     Rastin Pries, Yash Deshpande, Kaan Aykurt, Chia-Yu Chang, Koen De Schepper, Wolfgang
     Kellerer Networking Deterministic networking & latency modeling Co-authored Research
@@ -733,7 +739,9 @@
   authorship: first-author
   authorship_label: First-authored
   summary: Research related to tree-splitting algorithms and scalable contention resolution.
-  links: []
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2208.04066
   search_text: On d-ary tree algorithms with successive interference cancellation
     Yash Deshpande, Cedomir Stefanovic, H Murat Gürsu, Wolfgang Kellerer arXiv preprint
     arXiv:2208.04066 Tree splitting algorithms First-authored Research related to
